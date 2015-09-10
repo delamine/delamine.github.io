@@ -1,0 +1,100 @@
+ 
+
+body { 
+/* /background-image: url('images/back.png');
+  background-image: -webkit-image-set(url('images/back.png') 1x, url('images/back_@2X.png') 2x);
+	   margin: auto; padding: inherit; */ } 
+
+
+.mum{width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  display: block;
+  background: none;				 }
+
+
+
+.header{ padding: 0.3em; padding-left: 20em; height: 20px; 
+   
+    background-color:black/* #BCC6CC*/;
+    clear: left; margin-left: 20px; margin-right: 20px;}
+
+.header p { padding-top: 11px; }
+
+
+.nav{	width: 200px;
+  background: none;
+  float: left;			}
+.nav ul{
+	list-style: none;  
+	text-align: right;
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 10px; padding-top: 0px; margin-left: 20px; margin-top: 20px;
+	color: black; }
+
+.nav ul li{ margin-top: 8px; font-size: 20px;}
+
+
+.intro{		width: 670px;
+  float: right;	margin-top: 110px;	font-size: 25px;}
+.content{	width: 670px;
+  float: right;	margin-top: 138px;}
+
+
+
+.edge{	 width: 10px;
+  background: none;
+  float: left;		}
+.edgein{	background: #777777;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 125px;
+  height: 400px;
+  width: 1px;		}
+
+
+
+.personal_photo {
+  width: 170px;
+  margin-left: 12px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+img.personal_photo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+#resume {margin-top: 10px; height: 500px;}
+
+
+a:link {
+    text-decoration: none; list-style: none; color: black;
+}
+
+a:visited {
+    text-decoration: none; list-style: none; color: black;
+}
+
+a:hover {
+    text-decoration:none; list-style: none; color: black;
+}
+
+a:active {
+    text-decoration: none; list-style: none; color: black;
+} 
+
+
+.footer{padding: 0.3em; padding-left: 10em;
+    color: white;
+    background-color:black /* #BCC6CC*/ ; height: 20px;
+    clear: left; margin-left: 20px; margin-right: 20px;	 margin-top: 606px; margin-bottom: 0px;}
+
+
+
+
+
