@@ -310,11 +310,13 @@ a:active {
   .butFrame.large .butText span {
     font-size:1.2em;
   }
-
-  .butFrame img {
+	  
     display:block;
+	 
   }
 
+	.butFrame.other {
+	
 }
 
 
