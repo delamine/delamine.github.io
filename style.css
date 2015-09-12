@@ -1,6 +1,6 @@
  
 
-body { 
+body { background-image: url(images/top.jpg);
 /* /background-image: url('images/back.png');
   background-image: -webkit-image-set(url('images/back.png') 1x, url('images/back_@2X.png') 2x);
 	   margin: auto; padding: inherit; */ } 
@@ -15,11 +15,11 @@ body {
 
 
 
-.header{ padding: 0.3em; padding-left: 20em; 
+.header{ border: solid 2px #532A24 ; padding: 0.3em; padding-left: 20em; 
 		height: 20px; 
-		background-color: #BCC6CC;
+		background-color: #DB9356 /*#BCC6CC*/;
     	clear: left;
-		margin-left: 20px; margin-right: 20px; border-radius: 5px;}
+		margin-left: 20px; margin-right: 20px; border-radius: 5px; }
 		
 	.header p { padding-top: 11px; }
 
@@ -47,7 +47,7 @@ body {
 	
 .content{	line-height: 190%; width: 660px; margin-right: 20px;
   			float: right;	margin-top: 20px;}
-.content p { font-family: sans-serif; font-size: 20px; }
+.content p { font-family: Lekton/* sans-serif*/; font-size: 20px; }
 
 
 #quotes { background-color: lightcyan; margin: auto; padding: inherit; border: solid 2px; height: 60px;
@@ -97,9 +97,9 @@ a:active {
 } 
 
 
-.footer{padding: 0.3em; padding-left: 10em;
+.footer{ border: solid 2px #532A24; padding: 0.3em; padding-left: 10em;
     	color: black;
-    	background-color: #BCC6CC ; height: 20px; 			border-radius: 5px; 
+    	background-color: #DB9356  /*#BCC6CC */; height: 20px; 			border-radius: 5px; 
     	clear: left; margin-left: 20px; margin-right: 20px;	 			margin-top: 606px; margin-bottom: 0px; }
 
 
