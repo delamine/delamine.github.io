@@ -2,31 +2,40 @@
 
 body { background-image: url(images/top.jpg);
 /* /background-image: url('images/back.png');
-  background-image: -webkit-image-set(url('images/back.png') 1x, url('images/back_@2X.png') 2x);
+  background-image: -webkit-image-set(url('images/top.jpg') 1x, url('images/top.jpg') 2x);
 	   margin: auto; padding: inherit; */ } 
 
 
 .mum{width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  display: block;
-  background: none; }
+  	 margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     display: block; }
 
 
 
-.header{ border: solid 2px #532A24 ; padding: 0.3em; padding-left: 20em; 
+ .header{ padding-top: 11px; color: black; font-		
+	 family:cookie; font-size:17px; text-align: right; 
+	 
+/*		border: solid 2px #532A24 ; 
+	    padding: 0.3em; padding-left: 20em; 
 		height: 20px; 
 		background-color: #DB9356 /*#BCC6CC*/;
-    	clear: left;
-		margin-left: 20px; margin-right: 20px; border-radius: 5px; }
-		
-	.header p { padding-top: 11px; }
+ /*   	clear: left;
+		margin-left: 20px; margin-right: 20px; 
+	    border-radius: 5px; }
+	*/
+}
+	.header p { }
 
+
+#header_border {  border-bottom: solid black 1px; 
+			      width: 600px; float: right;		   }
 
 .nav{	width: 200px;
   		background: none;
 		float: left;  }
+
 		.nav ul{
 				list-style: none;  
 				text-align: right;
@@ -41,22 +50,32 @@ body { background-image: url(images/top.jpg);
 			
 
 .intro{		width: 670px;
-  			float: right;	margin-top: 110px;	font-size: 25px;}
+  			float: right;	
+	        margin-top: 110px;	
+			font-size: 25px;	}
 
 #Resume_intro {	width: 670px; height: 25px; margin-top: 100px;  font-size: 25px; float: right;}
 	
-.content{	line-height: 190%; width: 660px; margin-right: 20px;
-  			float: right;	margin-top: 20px;}
-.content p { font-family: Lekton/* sans-serif*/; font-size: 20px; }
+
+.content{	line-height: 190%; width: 660px; 
+			margin-right: 20px; margin-top: 20px;
+  			float: right;	}
+
+.content p { font-family: Lekton/* sans-serif*/; 
+			 font-size: 20px; }
 
 
-#quotes { background-color: lightcyan; margin: auto; padding: inherit; border: solid 2px; height: 60px;
-		  border-radius: 6px; font-family: lato;  font-size: 20px;
-					}
+#quotes {   background-color: lightcyan;
+			margin: auto; padding: inherit; 
+	        border: solid 2px;  border-radius: 6px;
+	        height: 60px;
+		    font-family: lato;  font-size: 20px; }
+					
 
 .edge{	width: 10px;
 		background: none;
   		float: left;		}
+
 .edgein{background: #777777;
 		margin-left: auto;
 		margin-right: auto;
@@ -77,7 +96,7 @@ body { background-image: url(images/top.jpg);
   						border-radius: 5px;  }
 
 
-#resume {margin-top: 0px; height: 500px;}
+#resume {margin-top: 0px; }
 
 
 a:link {
@@ -97,17 +116,25 @@ a:active {
 } 
 
 
-.footer{ border: solid 2px #532A24; padding: 0.3em; padding-left: 10em;
-    	color: black;
-    	background-color: #DB9356  /*#BCC6CC */; height: 20px; 			border-radius: 5px; 
-    	clear: left; margin-left: 20px; margin-right: 20px;	 			margin-top: 606px; margin-bottom: 0px; }
+.footer{ padding-top: 11px; color: black; font-		
+	 family:sherif; font-size:14px; text-align: right; clear: both;
+	  border-bottom: solid black 2px; }
 
+/*		 height: 20px;
+	     border: solid 2px #532A24; 
+		 padding: 0.3em; padding-left: 10em;
+    	 color: black;
+    	 background-color: #DB9356  /*#BCC6CC */ 			    
+/*	     border-radius: 5px; 
+    	 clear: left; 
+	     margin-left: 20px; margin-right: 20px;	 			   
+	     margin-top: 606px; margin-bottom: 0px; 
 
+}
 
 
 
 /* FAVORITES  ****************************/
-
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300); /* For Codepen presentation only */
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700); /* For Codepen presentation only */
@@ -149,7 +176,7 @@ a:active {
 }
 
 .butFrame.large {
-  width: 70%;
+  width: 70% ; height: 260px;
 }
 
 .butFrame:nth-child(-n+2) {
@@ -245,8 +272,8 @@ a:active {
 }
 
 
-/* MEDIA Queries *****************************/
-
+ /* Media Queries */
+/*
 @media all and (max-width: 950px) and (min-width: 701px){
 
   .butFrame.small {
@@ -310,13 +337,14 @@ a:active {
   .butFrame.large .butText span {
     font-size:1.2em;
   }
-	  
+
+  .butFrame img {
     display:block;
-	 
   }
 
+}
 
-
+*/
 /* ************************/
 
 	
