@@ -218,7 +218,7 @@ body .demo-blog {
   font-size: 13px;
   font-weight: 500;
   border-top-left-radius: 2px;
-  border-top-right-radius: 2px; background-image: url('images/profil.jpg'); 
+  border-top-right-radius: 2px; background-image: url('images/profil.png')
 }
 .demo-blog .something-else .mdl-card__media img {
   width: 175px;
