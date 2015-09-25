@@ -524,8 +524,17 @@ body .demo-blog {
   background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
 }
 .social-btn__gplus {
-  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+  background-image: url('http://www.chem-dry.net/atlantic.ny/about/transparent-google-logo-icon.png');
 }
+
+.social-btn__linkedin {
+  background-image: url('http://files.gandi.ws/gandi31086/image/linkedin_icon.png');
+}
+
+.social-btn__github{
+  background-image: url('https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png');
+}
+
 .social-btn__share {
   color: rgba(0, 0, 0, 0.54);
   background: transparent;
@@ -542,3 +551,8 @@ body .demo-blog {
   background-color: white;
   box-sizing: border-box;
 }
+
+
+#about { margin-bottom: 60px; }
+
+#about_stick { }

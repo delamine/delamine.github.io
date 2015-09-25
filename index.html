@@ -58,6 +58,15 @@
       z-index: 900;
     }
     </style>
+	  
+	  <!-- button -->
+	  
+		  <meta name='description' content='A simple, light, flexible, and good-looking share button'>
+	      <meta name='og:image' content='http://carrot.is/img/fb-share.jpg'>
+	      <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:700&text=new+Share(".share-button");' rel='stylesheet' type='text/css'>
+		 
+	    
+	  
   </head>
   <body>
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
@@ -175,41 +184,42 @@
 		<div id="blog-card" class="blog-card">
 				<div class="photo photo1"></div>
 				<ul class="details">
-						<li class="author"><a href="#">John Doe</a></li>
+						<li class="author"><a href="#">Sabri Bolkar</a></li>
 						<li class="date">Aug. 24, 2015</li>
 						<li class="tags">
 								<ul>
 										<li><a href="#">Learn</a></li>
-										<li><a href="#">Code</a></li>
-										<li><a href="#">HTML</a></li>
-										<li><a href="#">CSS</a></li>
+										<li><a href="#">Discover</a></li>
+										<li><a href="#">Love</a></li>
+										<li><a href="#">Share</a></li>
 								</ul>
 						</li>
 				</ul>
 				<div class="description">
-						<h1>Learning to Code</h1>
+						<h1>Yeap First Post</h1>
 						<h2>Opening a door to the future</h2>
-						<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+						<p class="summary"> WILL BE UPDATED SOON... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
 						<a href="#">Read More</a>
 				</div>
 		</div>
 		<div id="blog-card" class="blog-card alt">
 				<div class="photo photo2"></div>
 				<ul class="details">
-						<li class="author"><a href="#">Jane Doe</a></li>
+						<li class="author"><a href="#">Sabri Bolkar</a></li>
 						<li class="date">July. 15, 2015</li>
 						<li class="tags">
 								<ul>
 										<li><a href="#">Learn</a></li>
-										<li><a href="#">Code</a></li>
-										<li><a href="#">JavaScript</a></li>
+										<li><a href="#">Discover</a></li>
+										<li><a href="#">Love</a></li>
+										<li><a href="#">Share</a></li>
 								</ul>
 						</li>
 				</ul>
 				<div class="description">
-						<h1>Mastering the Language</h1>
-						<h2>Java is not the same as JavaScript</h2>
-						<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+						<h1>Second Post</h1>
+						<h2>Words Words Words Words ! </h2>
+						<p class="summary"> WILL BE UPDATED SOON... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
 						<a href="#">Read More</a>
 				</div>
 		</div>
@@ -237,25 +247,56 @@
 	 
 			  <!-- FOOTER -->
 
-			<footer class="mdl-mini-footer">
+			  <footer class="mdl-mini-footer">
 			  <div class="mdl-mini-footer--left-section">
-				<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
-				  <span class="visuallyhidden">Twitter</span>
-				</button>
-				<button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
-				  <span class="visuallyhidden">Facebook</span>
-				</button>
-				<button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+			<!--	<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+				  <span class="visuallyhidden">Twitter</span> 
+				</button> -->
+				  
+				  <a href="https://github.com/delamine" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__github">
+				  <span class="visuallyhidden">Github</span>
+				</button> </a>
+			
+				  
+				  <a href="https://tr.linkedin.com/pub/sabri-bolkar/9b/317/796" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__linkedin">
+				  <span class="visuallyhidden">Linkedin</span>
+				</button> </a>	
+				  
+				<a href="https://plus.google.com/+SabriBolkar" target="_blank" > <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
 				  <span class="visuallyhidden">Google Plus</span>
-				</button>
+				</button>  </a>
 			  </div>
+				  
+				<!--
 			  <div class="mdl-mini-footer--right-section">
 				<button class="mdl-mini-footer--social-btn social-btn__share">
 				  <i class="material-icons" role="presentation">share</i>
 				  <span class="visuallyhidden">share</span>
 				</button>
 			  </div>
-			</footer>
+				-->				
+	
+				<!-- SHARE BUTTON -->
+		<div class="mdl-mini-footer--right-section"> 	
+			
+			  <div style="display: block;" class="share-button sharer-0"><label class="entypo-export"><span>Share</span></label><div class="social top center networks-5 active"><ul> <li class="entypo-pinterest" data-network="pinterest"></li><li class="entypo-twitter" data-network="twitter"></li><li class="entypo-facebook" data-network="facebook"></li><li class="entypo-gplus" data-network="google_plus"></li><li class="entypo-paper-plane" data-network="email"></li></ul></div></div>
+
+			  <script src="button/share.js" id="facebook-jssdk"></script><script src="button/all.js"></script>
+			  <script>
+				var share = new Share(".share-button", {
+				  networks: {
+					facebook: {
+					  app_id: "602752456409826",
+					}
+				  }
+				});
+			  </script><script>window.fbAsyncInit=function(){FB.init({appId:'602752456409826',status:true,xfbml:true})};(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n)){return}r=e.createElement(t);r.id=n;r.src='//connect.facebook.net/en_US/all.js';i.parentNode.insertBefore(r,i)})(document,'script','facebook-jssdk')</script>
+				
+		</div>			
+				
+				
+				
+	</footer>
 
 		  
     </main>
