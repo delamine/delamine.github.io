@@ -60,12 +60,12 @@
     }
     </style>
 	  
-	  <!-- button -->
 	  
-		  <meta name='description' content='A simple, light, flexible, and good-looking share button'>
-	      <meta name='og:image' content='http://carrot.is/img/fb-share.jpg'>
-	      <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:700&text=new+Share(".share-button");' rel='stylesheet' type='text/css'>
-		 
+	  <!-- Font awesome -->
+	  
+	  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+	  
+	  
   </head>
 	
   <body>
@@ -75,7 +75,7 @@
 			
           <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">About me</a></h3>
+              <h3><a href="about.html">About me</a></h3>
             </div>
             <div id="supporting_text" class="mdl-card__supporting-text meta mdl-color-text--grey-600">
             <!--  <div class="minilogo"></div> -->
@@ -202,6 +202,9 @@
 						<a href="#">Read More</a>
 				</div>
 		</div>
+			
+			
+			
 		<div id="blog-card" class="blog-card alt">
 				<div class="photo photo2"></div>
 				<ul class="details">
@@ -223,6 +226,8 @@
 						<a href="#">Read More</a>
 				</div>
 		</div>
+			
+			
 		<!--END PEN CODE-->
 			
 			
@@ -230,7 +235,7 @@
 			<!-- NAVIGATION -->
           <nav class="demo-nav mdl-cell mdl-cell--12-col">
             <div class="section-spacer"></div>
-            <a href="entry.html" class="demo-nav__button" title="show more">
+            <a href="posts/first_post/first_post.html" class="demo-nav__button" title="show more">
               More
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">arrow_forward</i>
@@ -268,7 +273,7 @@
 			  </div>
 				  
 				  
-				  <div>
+				  <div id="footer_info" >
 				  Powered by Google Material Design, licensed under the <a href=" https://www.apache.org/licenses/LICENSE-2.0"  target="_blank"> Apache License </a>  | Post Cards designed by Chyno Deluxe 
 				  
 				  </div>
@@ -285,21 +290,17 @@
 				-->				
 	
 				<!-- SHARE BUTTON -->
-		<div id="share_button" class="mdl-mini-footer--right-section"> 	
+		<div class="mdl-mini-footer--right-section"> 	
 			
-			  <div style="display: block;" class="share-button sharer-0"><label class="entypo-export"><span>Share</span></label><div class="social top center networks-5 active"><ul> <li class="entypo-pinterest" data-network="pinterest"></li><li class="entypo-twitter" data-network="twitter"></li><li class="entypo-facebook" data-network="facebook"></li><li class="entypo-gplus" data-network="google_plus"></li><li class="entypo-paper-plane" data-network="email"></li></ul></div></div>
-
-			  <script src="button/share.js" id="facebook-jssdk"></script><script src="button/all.js"></script>
-			  <script>
-				var share = new Share(".share-button", {
-				  networks: {
-					facebook: {
-					  app_id: "602752456409826",
-					}
-				  }
-				});
-			  </script>
-		<!--	<script>window.fbAsyncInit=function(){FB.init({appId:'602752456409826',status:true,xfbml:true})};(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n)){return}r=e.createElement(t);r.id=n;r.src='//connect.facebook.net/en_US/all.js';i.parentNode.insertBefore(r,i)})(document,'script','facebook-jssdk')</script> -->
+			
+			
+			<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdelamine.github.io%2F&t=" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fdelamine.github.io%2F&text=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+  <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Email"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+</ul>
+			
 				
 		</div>			
 				

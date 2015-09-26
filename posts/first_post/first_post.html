@@ -42,11 +42,15 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
 
+	  <!-- Font awesome -->
+	  
+	  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+	  
     <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="material.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../material.min.css">
+    <link rel="stylesheet" href="post1.css">
     <style>
     #view-source {
       position: fixed;
@@ -63,7 +67,7 @@
     <div class="demo-blog demo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
       <main class="mdl-layout__content">
         <div class="demo-back">
-          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="index.html" title="go back" role="button">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="../../index.html" title="go back" role="button">
             <i class="material-icons" role="presentation">arrow_back</i>
           </a>
         </div>
@@ -97,7 +101,8 @@
             <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
 			<div id="about_stick">  </div>
               <p id="about">
-               I am Sabri Bolkar, electronics Engineering senior and designer with a penchant for the web and animation design. I have  strong interest in philosophy as well as some neuroscience stuff, particularly the engineered one. Here is the my personal page, I will update and share with you some interesting stuff as much as I can. Things here are licensed under the Apache License, Version 2.0 so you can do anything you want. Have fun :D
+               I am Sabri Bolkar, electronics Engineering senior and freelance designer with a penchant for the web and animation design. I have  strong interest in philosophy as well as some neuroscience stuff, particularly the engineered one. Here is the my personal page, I will update and share with you some interesting stuff as much as I can. Things here are licensed under the Apache License, Version 2.0 so you can do anything you want. Have fun. You may also find my personal accounts below:
+				    
               </p>
              
             </div>
@@ -168,7 +173,7 @@
 
 			
           <nav class="demo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-            <a href="index.html" class="demo-nav__button">
+            <a href="../../index.html" class="demo-nav__button">
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
               </button>
@@ -186,24 +191,21 @@
 		  
 		  
         <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
+              <div class="mdl-mini-footer--left-section">
 			<!--	<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
 				  <span class="visuallyhidden">Twitter</span> 
 				</button> -->
 				  
-				  <a href="https://github.com/delamine" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__github">
-				  <span class="visuallyhidden">Github</span>
-				</button> </a>
-			
-				  
-				  <a href="https://tr.linkedin.com/pub/sabri-bolkar/9b/317/796" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__linkedin">
-				  <span class="visuallyhidden">Linkedin</span>
-				</button> </a>	
-				  
-				<a href="https://plus.google.com/+SabriBolkar" target="_blank" > <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
-				  <span class="visuallyhidden">Google Plus</span>
-				</button>  </a>
+				
 			  </div>
+			
+			  <div>
+				  Powered by Google Material Design, licensed under the <a href=" https://www.apache.org/licenses/LICENSE-2.0"  target="_blank"> Apache License </a>  | Post Cards designed by Chyno Deluxe 
+				  
+				  </div>
+			
+			
+			
         </footer>
 		  
       </main>
@@ -218,18 +220,14 @@
 	  
 	  <div id="view-source" > 	
 			
-			  <div id= "share_button" style="display: block;" class="share-button sharer-0"><label class="entypo-export"><span>Share</span></label><div class="social top center networks-5 active"><ul> <li class="entypo-pinterest" data-network="pinterest"></li><li class="entypo-twitter" data-network="twitter"></li><li class="entypo-facebook" data-network="facebook"></li><li class="entypo-gplus" data-network="google_plus"></li><li class="entypo-paper-plane" data-network="email"></li></ul></div></div>
-
-			  <script src="button/share.js" id="facebook-jssdk"></script><script src="button/all.js"></script>
-			  <script>
-				var share = new Share(".share-button", {
-				  networks: {
-					facebook: {
-					  app_id: "602752456409826",
-					}
-				  }
-				});
-			  </script><script>window.fbAsyncInit=function(){FB.init({appId:'602752456409826',status:true,xfbml:true})};(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n)){return}r=e.createElement(t);r.id=n;r.src='//connect.facebook.net/en_US/all.js';i.parentNode.insertBefore(r,i)})(document,'script','facebook-jssdk')</script>
+			 
+			<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdelamine.github.io%2F&t=" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fdelamine.github.io%2F&text=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+  <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Email"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+</ul>
+			
 				
 	  </div>	
 	  
