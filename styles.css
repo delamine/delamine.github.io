@@ -218,7 +218,7 @@ body .demo-blog {
   font-size: 13px;
   font-weight: 500;
   border-top-left-radius: 2px;
-  border-top-right-radius: 2px; background-image: url('images/profil.png')
+  border-top-right-radius: 2px; background-image: url('images/profil.jpg')
 }
 .demo-blog .something-else .mdl-card__media img {
   width: 175px;
@@ -541,7 +541,8 @@ body .demo-blog {
 }
 
 .demo-blog .mdl-mini-footer {
-  margin-top: 80px;
+	
+	margin-top: 80px;
   height: 120px;
   padding: 40px;
   -webkit-box-align: center;
@@ -552,7 +553,15 @@ body .demo-blog {
   box-sizing: border-box;
 }
 
+#share_button {margin:10px; margin-right: 65px;}
+
 
 #about { margin-bottom: 60px; }
 
 #about_stick { }
+
+#supporting_text {background-color: lavenderblush; }
+
+#first_post { background-color: gold}
+
+#second_post {background-color: chocolate} 
