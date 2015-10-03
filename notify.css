@@ -1,0 +1,99 @@
+
+/* Complied CSS    source: http://codepen.io/Kopepasah/pen/wFAic */
+
+body {
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+#content {
+  max-width: 760px;
+  margin: 2em auto;
+}
+.success,
+.error,
+.notice,
+.update {
+  position: relative;
+  padding: 1em 1em 1em 4em;
+  border-radius: 2px;
+  color: #FFF;
+}
+.success a,
+.error a,
+.notice a,
+.update a {
+  color: #FFF;
+  border-bottom: 1px solid #FFF;
+}
+.success a:hover,
+.error a:hover,
+.notice a:hover,
+.update a:hover {
+  border-bottom: none;
+}
+.success:before,
+.error:before,
+.notice:before,
+.update:before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 3em;
+  display: inline-block;
+  border-right: 1px solid transparent;
+}
+.success:after,
+.error:after,
+.notice:after,
+.update:after {
+  position: absolute;
+  top: 50%;
+  left: 1em;
+  min-width: 1.1em;
+  text-align: center;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.success {
+  background: #99cc99;
+}
+.success:before {
+  border-right-color: #aad5aa;
+}
+.success:after {
+  content: "\f00c";
+}
+.notice {
+  background: #ffcc66;
+}
+.notice:before {
+  border-right-color: #ffd480;
+}
+.notice:after {
+  content: "\f071";
+}
+.error {
+  background: #f2777a;
+}
+.error:before {
+  border-right-color: #f48e91;
+}
+.error:after {
+  content: "\f00d";
+}
+.update {
+  background: #6699cc;
+}
+.update:before {
+  border-right-color: #79a6d2;
+}
+.update:after {
+  content: "\f129";
+}
