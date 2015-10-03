@@ -573,6 +573,8 @@ ul.share-buttons li{
 
 #supporting_text {background-color: lavenderblush; }
 
-#first_post { background-color: gold}
+#first_post { background-color: #}
 
-#second_post {background-color: chocolate} 
+#second_post {background-color: # } 
+
+#notify { margin: 10px; margin-bottom: 0px;  }
