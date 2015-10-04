@@ -1,5 +1,5 @@
 # delamine.github.io
 
-##It's the repository containing my personal blog
+####It's the repository containing my personal blog
 
-*Check this out, it's fun"
+*Check this out, it's fun*
