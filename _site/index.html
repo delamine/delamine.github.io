@@ -1,124 +1,54 @@
-<!Doctype html>
-
+<!DOCTYPE html>
 <html>
-
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BLOGNOVA</title>
+  <meta name="viewport" content="width=device-width">
 
-<style type="text/css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/strange_case/css/syntax.css">
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-html,
-body,
-div {
-  height: 100%;
-}
-body {
-  color: #fff;
-  background-color: #6f7070;
-}
-.tint {
-  background: black;
-  opacity: 0;
-  transition: all 0.444s ease-out;
-}
-div {
-  position: relative;
-}
-a:hover + div.tint {
-  opacity: 0.5;
-}
-a {
-  z-index: 5;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  font-family: 'Biryani', sans-serif;
-  font-weight: 800;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  letter-spacing: 0.0455em;
-  box-shadow: 0px 0px 0px 5px white;
-  transition: all 0.3s ease-out;
-  border-radius: 30px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-  height: 50px;
-}
-a:hover {
-  background-color: white;
-  color: black;
-}
-.l {
-  background: url('http://i.imgur.com/0sb1Qes.png');
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: 550% 50%;
-  float: left;
-  width: 50%;
-}
-.l a:hover {
-  color: #51d06d;
-}
-.l .tint {
-  background-color: #51d06d;
-}
-.r {
-  background: url('http://i.imgur.com/0sb1Qes.png');
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: -455% 50%;
-  float: left;
-  width: 50%;
-}
-.r a {
-  border-radius: 0;
-}
-.r a:hover {
-  color: #4b9cd8;
-}
-.r .tint {
-  background-color: #4b9cd8;
-}
-@media all and (orientation: portrait) {
-  .r {
-    float: none;
-    height: 50%;
-    width: 100%;
-  }
-  .l {
-    float: none;
-    height: 50%;
-    width: 100%;
-  }
-}
+  <!-- CSS -->
+  <link rel="stylesheet" href="/strange_case/css/reset.css">
+  <link rel="stylesheet" href="/strange_case/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-
-
-
-
-</style>
-
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
 </head>
-
-
 <body>
-<div class="l">
-   <a href="blog.html">Blog</a>
-   <div class="tint"></div>
-</div>
-<div class="r">
-   <a href="#">About Me</a>
-   <div class="tint"></div>
-</div>
+  <header id="home-header" style="background-image: url(/strange_case/images/capture.png);">
+  <div class="container post-container">
+  <a href="/strange_case/" class="home_button"></a>
+  <div class="container">
+    
+    <h1>BLOGNOVA</h1>
+    <ul class="meta">
+      <li>
+        <span>
+          Bazı pratik bilgiler ve ilginç gerçekler
+        </span>
+      </li>
+  </div>
+ </div> 
+</header>
+<article>
+  <div class="container">
+    <ul class="posts">
+      
+        <li>
+          <h2><a href="/strange_case/jekyll/2015/10/29/Hello-World!.html">Hello World!</a></h2>
+          <span class="meta">
+            29 Oct 2015
+          </span>
+          <h2>En ilk olan ilk bu ...</h2>
+
+        </li>
+      
+    </ul>
+  </div>
+</article>
+
 </body>
-</htmk>
+</html>
