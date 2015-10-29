@@ -6,4 +6,4 @@ sidebar_image: /images/capture.png
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-baseurl: http://delamine.github.io/ # the subpath of your site, e.g. /blog/
+baseurl: http://blognova.com/ # the subpath of your site, e.g. /blog/
