@@ -6,8 +6,7 @@ categories: jekyll
 featured_image: /images/capture.png
 ---
 
-
-## En ilk olan ilk bu ...
+##İlk Post
 
 Ne demiş Wittgenstein:
 
