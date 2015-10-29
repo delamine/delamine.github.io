@@ -1,5 +1,7 @@
-# delamine.github.io
+Blognova.com
+============
 
-####It's the repository containing my personal blog
+##Personal Page Repo
 
-*Check this out, it's fun*
+### License
+* [MIT](http://opensource.org/licenses/MIT)

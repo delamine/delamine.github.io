@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Hello World!"
+date: 2015-10-29 12:00:00
+categories: jekyll
+featured_image: /images/capture.png
+---
+
+
+## En ilk olan ilk bu ...
+
+Ne demiş Wittgenstein:
+
+> "The borders of my language are the borders of my world"
+
+### "Söylemimin sınırları, dünyamın sınırlarını belirler."
+
+

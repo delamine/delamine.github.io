@@ -1,352 +1,124 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
+<!Doctype html>
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+<html>
 
-      https://www.apache.org/licenses/LICENSE-2.0
+<head>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Personal Blog of Sabri Bolkar">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Bolkar's Blog</title>
+<style type="text/css">
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+div {
+  height: 100%;
+}
+body {
+  color: #fff;
+  background-color: #6f7070;
+}
+.tint {
+  background: black;
+  opacity: 0;
+  transition: all 0.444s ease-out;
+}
+div {
+  position: relative;
+}
+a:hover + div.tint {
+  opacity: 0.5;
+}
+a {
+  z-index: 5;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.0455em;
+  box-shadow: 0px 0px 0px 5px white;
+  transition: all 0.3s ease-out;
+  border-radius: 30px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  height: 50px;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+.l {
+  background: url('http://i.imgur.com/0sb1Qes.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 550% 50%;
+  float: left;
+  width: 50%;
+}
+.l a:hover {
+  color: #51d06d;
+}
+.l .tint {
+  background-color: #51d06d;
+}
+.r {
+  background: url('http://i.imgur.com/0sb1Qes.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: -455% 50%;
+  float: left;
+  width: 50%;
+}
+.r a {
+  border-radius: 0;
+}
+.r a:hover {
+  color: #4b9cd8;
+}
+.r .tint {
+  background-color: #4b9cd8;
+}
+@media all and (orientation: portrait) {
+  .r {
+    float: none;
+    height: 50%;
+    width: 100%;
+  }
+  .l {
+    float: none;
+    height: 50%;
+    width: 100%;
+  }
+}
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Bolkar's Blog">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
 
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="material.min.css">
-    <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="cardstyle.css">
-	  
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-	  
-	  
-      <!-- Notify.css -->
-      
-      <link href="notify.css" rel="stylesheet">
-      
-      
-	  <!-- Font awesome -->
-	  
-	  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
-	  
-	  
-  </head>
-	
-  <body>
-    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
-      <main class="mdl-layout__content">
-        <div class="demo-blog__posts mdl-grid">
-			
-          <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
-            <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="about.html">About me</a></h3>
-            </div>
-            <div id="supporting_text" class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-            <!--  <div class="minilogo"></div> -->
-              <div>
-               <span style="font-size:23px;"> Hi There! I am  <strong> Sabri Bolkar </strong> </span>
-				  
-             <!--   <span>2 days ago</span> -->
-				  
-              </div>
-            </div>
-          </div>
-			
-          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
-			  
-			  <!-- BUTTON
-			  
-            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
-              <i class="material-icons mdl-color-text--white" role="presentation">add</i>
-              <span class="visuallyhidden">add</span>
-            </button>
-			  -->
-			  
-            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-              
-              
-            </div>
-			  
-          <!--  <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-              <div>
-                <strong>The Newist</strong>
-              </div>
-              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-                <li class="mdl-menu__item mdl-js-ripple-effect">About</li>
-                <li class="mdl-menu__item mdl-js-ripple-effect">Message</li>
-                <li class="mdl-menu__item mdl-js-ripple-effect">Favorite</li>
-                <li class="mdl-menu__item mdl-js-ripple-effect">Search</li>
-              </ul>
-              <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                <i class="material-icons" role="presentation">more_vert</i>
-                <span class="visuallyhidden">show menu</span>
-              </button>
-            </div> -->
-			  
-          </div>
-			
-			
-			<!-- Orginal Template
-			
-			
-          <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">On the road again</a></h3>
-            </div>
-            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div class="minilogo"></div>
-              <div>
-                <strong>The Newist</strong>
-                <span>2 days ago</span>
-              </div>
-            </div>
-          </div>
-          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__title mdl-color-text--grey-50">
-              <h3 class="quote"><a href="entry.html">I couldn’t take any pictures but this was an amazing thing…</a></h3>
-            </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div class="minilogo"></div>
-              <div>
-                <strong>The Newist</strong>
-                <span>2 days ago</span>
-              </div>
-            </div>
-          </div>
-          <div class="mdl-card shopping mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">Shopping</a></h3>
-            </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div class="minilogo"></div>
-              <div>
-                <strong>The Newist</strong>
-                <span>2 days ago</span>
-              </div>
-            </div>
-          </div>
-			
-			-->
-			
-            <div id="notify" class=content>
-            
-                <p class="notice" style="color:#444"> Blog posts are in Turkish for now, but I will put the original sources so that you can fallow what content is about.     
-                </p>
-                
-            </div>
-            
-            
-			
-				<!--CARD PEN CODE-->
-	
-		<div id="blog-card" class="blog-card">
-				<div class="photo photo1"></div>
-				<ul class="details">
-						<li class="author"><a href="#">Sabri Bolkar</a></li>
-						<li class="date">Aug. 24, 2015</li>
-						<li class="tags">
-								<ul>
-										<li><a href="#">Learn</a></li>
-										<li><a href="#">Discover</a></li>
-										<li><a href="#">Love</a></li>
-										<li><a href="#">Share</a></li>
-								</ul>
-						</li>
-				</ul>
-				<div id="first_post" class="description">
-						<h1>Yeap First Post</h1>
-						<h2>Opening a door to the future</h2>
-						<p class="summary"> WILL BE UPDATED SOON... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-						<a href="#">Read More</a>
-				</div>
-		</div>
-			
-			
-			
-		<div id="blog-card" class="blog-card alt">
-				<div class="photo photo2"></div>
-				<ul class="details">
-						<li class="author"><a href="#">Sabri Bolkar</a></li>
-						<li class="date">July. 15, 2015</li>
-						<li class="tags">
-								<ul>
-										<li><a href="#">Learn</a></li>
-										<li><a href="#">Discover</a></li>
-										<li><a href="#">Love</a></li>
-										<li><a href="#">Share</a></li>
-								</ul>
-						</li>
-				</ul>
-				<div id="second_post" class="description">
-						<h1>Second Post</h1>
-						<h2>Words Words Words Words ! </h2>
-						<p class="summary"> WILL BE UPDATED SOON... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-						<a href="#">Read More</a>
-				</div>
-		</div>
-			
-			
-		<!--END PEN CODE-->
-			
-			
-			
-			<!-- NAVIGATION -->
-          <nav class="demo-nav mdl-cell mdl-cell--12-col">
-            <div class="section-spacer"></div>
-            <a href="posts/first_post/first_post.html" class="demo-nav__button" title="show more">
-              More
-              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                <i class="material-icons" role="presentation">arrow_forward</i>
-              </button>
-            </a>
-          </nav>
-			
-			
-			
-			
-        </div>
-		  
-		  
-	 
-			  <!-- FOOTER -->
 
-			  <footer class="mdl-mini-footer">
-			  <div class="mdl-mini-footer--left-section">
-				  
-			<!--	<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
-				  <span class="visuallyhidden">Twitter</span> 
-				</button> -->
-				  
-				  <a href="https://github.com/delamine" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__github">
-				  <span class="visuallyhidden">Github</span>
-				</button> </a>
-			
-				  
-				  <a href="https://tr.linkedin.com/pub/sabri-bolkar/9b/317/796" target="_blank"> <button class="mdl-mini-footer--social-btn social-btn social-btn__linkedin">
-				  <span class="visuallyhidden">Linkedin</span>
-				</button> </a>	
-				  
-				<a href="https://plus.google.com/+SabriBolkar" target="_blank" > <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
-				  <span class="visuallyhidden">Google Plus</span>
-				</button>  </a>
-			  </div>
-				  
-				  
-				  <div id="footer_info" >
-				  Powered by Google Material Design, licensed under the <a href=" https://www.apache.org/licenses/LICENSE-2.0"  target="_blank"> Apache License </a>  | Post Cards designed by Chyno Deluxe 
-				  
-				  </div>
-				  
-				  
-				  
-				<!--
-			  <div class="mdl-mini-footer--right-section">
-				<button class="mdl-mini-footer--social-btn social-btn__share">
-				  <i class="material-icons" role="presentation">share</i>
-				  <span class="visuallyhidden">share</span>
-				</button>
-			  </div>
-				-->				
-	
-				<!-- SHARE BUTTON -->
-		<div class="mdl-mini-footer--right-section"> 	
-			
-			
-			
-			<ul class="share-buttons">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdelamine.github.io%2F&t=" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fdelamine.github.io%2F&text=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-  <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fdelamine.github.io%2F" target="_blank" title="Email"><i class="fa fa-envelope-square fa-2x"></i></a></li>
-</ul>
-			
-				
-		</div>			
-				
-				
-				
-	</footer>
+</style>
 
-		  
-    </main>
-            <div class="mdl-layout__obfuscator">   </div>
+</head>
+
+
+<body>
+<div class="l">
+   <a href="blog.html">Blog</a>
+   <div class="tint"></div>
 </div>
-	
-	
-	
-	  <!--
-	
-	
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
-    <script src="../../material.min.js"></script>
-		
-	-->
-
-  </body>
-		  
-  <script>
-    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
-      var link = el.querySelector('a');
-      if(!link) {
-        return;
-      }
-      var target = link.getAttribute('href');
-      if(!target) {
-        return;
-      }
-      el.addEventListener('click', function() {
-        location.href = target;
-      });
-    });
-  </script>
-</html>
+<div class="r">
+   <a href="#">About Me</a>
+   <div class="tint"></div>
+</div>
+</body>
+</htmk>

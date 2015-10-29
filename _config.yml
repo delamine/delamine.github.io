@@ -1,0 +1,9 @@
+# Site settings
+title: 'BLOGNOVA' # Your Title
+tagline: 'Bazı pratik bilgiler ve ilginç gerçekler' # A brief tagline for your site
+sidebar_image: /images/capture.png
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+baseurl: /strange_case # the subpath of your site, e.g. /blog/
