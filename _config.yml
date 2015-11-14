@@ -1,9 +1,21 @@
 # Site settings
-title: 'BLOGNOVA' # Your Title
-tagline: 'Bazı pratik bilgiler ve ilginç gerçekler' # A brief tagline for your site
-sidebar_image: /images/capture.png
+title: BlogNova
+subtitle: "Journal of Bolkar S."
+email: sabribolkar@gmail.com
+description: "This one here is really serious about the blog. Don't worry I am fun. I am Bolkar, electronics engineer and dedicated geek. I will write about anything interesting and practical. To reach me, just click the photo :))"
+baseurl: ""
+url: "http://blognova.com"
+twitter_username: "#"
+github_username:  "delamine"
+instagram_username: "#"
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
-baseurl: http://blognova.com # the subpath of your site, e.g. /blog/
+markdown: kramdown
+permalink: pretty
+
+# Pagination
+paginate: 5
+
+# Sass
+sass:
+style: :compressed

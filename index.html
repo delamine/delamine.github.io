@@ -1,124 +1,41 @@
-<!Doctype html>
+---
+layout: default
+---
 
-<html>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  {% include post.html post=post content=post.content %}
+{% endfor %}
 
-<head>
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  <li class="pagination-item">
+    <a class="pagination-link pagination-link--non-numeric" {% if paginator.page == 1 %}disabled="disabled"{% endif %} href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">&larr; First page</a>
+  </li>
+  
+  <li class="pagination-item">
+    <a class="pagination-link pagination-link--non-numeric" {% if paginator.previous_page == nil %}disabled="disabled"{% endif %} href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a>
+  </li>
 
-<style type="text/css">
+  <!-- Numbers -->
+  {% for page in (1..paginator.total_pages) %}
+    <li class="pagination-item">
+      {% if page == paginator.page %}
+        <a class="pagination-link pagination-link--selected" href="#">{{ page }}</a>
+      {% elsif page == 1 %}
+        <a class="pagination-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a class="pagination-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  <!-- End of numbers -->
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-html,
-body,
-div {
-  height: 100%;
-}
-body {
-  color: #fff;
-  background-color: #6f7070;
-}
-.tint {
-  background: black;
-  opacity: 0;
-  transition: all 0.444s ease-out;
-}
-div {
-  position: relative;
-}
-a:hover + div.tint {
-  opacity: 0.5;
-}
-a {
-  z-index: 5;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  font-family: 'Biryani', sans-serif;
-  font-weight: 800;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  letter-spacing: 0.0455em;
-  box-shadow: 0px 0px 0px 5px white;
-  transition: all 0.3s ease-out;
-  border-radius: 30px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-  height: 50px;
-}
-a:hover {
-  background-color: white;
-  color: black;
-}
-.l {
-  background: url('http://i.imgur.com/0sb1Qes.png');
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: 550% 50%;
-  float: left;
-  width: 50%;
-}
-.l a:hover {
-  color: #51d06d;
-}
-.l .tint {
-  background-color: #51d06d;
-}
-.r {
-  background: url('http://i.imgur.com/0sb1Qes.png');
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: -455% 50%;
-  float: left;
-  width: 50%;
-}
-.r a {
-  border-radius: 0;
-}
-.r a:hover {
-  color: #4b9cd8;
-}
-.r .tint {
-  background-color: #4b9cd8;
-}
-@media all and (orientation: portrait) {
-  .r {
-    float: none;
-    height: 50%;
-    width: 100%;
-  }
-  .l {
-    float: none;
-    height: 50%;
-    width: 100%;
-  }
-}
-
-
-
-
-
-</style>
-
-</head>
-
-
-<body>
-<div class="l">
-   <a href="blog.html">Blog</a>
-   <div class="tint"></div>
-</div>
-<div class="r">
-   <a href="about.html">Biraz</a>
-   <div class="tint"></div>
-</div>
-</body>
-</htmk>
+  <li class="pagination-item">
+    <a class="pagination-link pagination-link--non-numeric" {% if paginator.next_page == nil %}disabled="disabled"{% endif %} href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+  </li>
+  <li class="pagination-item">
+    <a class="pagination-link pagination-link--non-numeric" {% if paginator.page == paginator.total_pages %}disabled="disabled"{% endif %} href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">Last page &rarr;</a>
+  </li>
+</ul>
+{% endif %}
