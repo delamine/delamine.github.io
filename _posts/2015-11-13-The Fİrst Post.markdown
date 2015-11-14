@@ -7,7 +7,7 @@ location: ODTÜ
 tags: other
 ---
 
-The blog is mainly based on Rowan Oulton's Travelog theme with some Bolkar flavour and licenced uner MIT licence. Youc can do anything you want with the source code which you can find <a href="https://github.com/rowanoulton/travelog-theme" target="_blank">here</a>. Have fun :)
+The blog is mainly based on Rowan Oulton's Travelog theme with some Bolkar flavour and licenced uner MIT licence. You can do anything you want with the source code which you can find <a href="https://github.com/rowanoulton/travelog-theme" target="_blank">here</a>. Have fun :)
 
 <!--
 <div class="post-image">
