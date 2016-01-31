@@ -1,0 +1,19 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div>
+<img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="" height="300">
+</div>
+
+<div style="">
+
+
+This one here is really serious about the blog. Don't worry I am fun. I am Bolkar, electronics engineer and dedicated geek. I will write about anything interesting and practical. To reach me, just click the photo :))
+
+
+</div>
+
+

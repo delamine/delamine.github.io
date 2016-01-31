@@ -1,21 +1,60 @@
-# Site settings
-title: BlogNova
-subtitle: "Journal of Bolkar S."
-email: sabribolkar@gmail.com
-description: "This one here is really serious about the blog. Don't worry I am fun. I am Bolkar, electronics engineer and dedicated geek. I will write about anything interesting and practical. To reach me, just click the photo :))"
+
+# SEO settings
+title: Nova
+description: "Personal Blog of Bolkars"
+keywords: "Sabri, Bolkar, Jekyll, theme, free, download, SEO, blog, web"
+url: http://blognova.com
 baseurl: ""
-url: "http://blognova.com"
-twitter_username: "#"
-github_username:  "delamine"
-instagram_username: "#"
+# baseurl: null
+
+google_analytics: 
+repo:
+disqus_shortname: ""
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
 
-# Pagination
-paginate: 5
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
 
-# Sass
+source: source
+destination: _site
+
+# Sass configuration
 sass:
-style: :compressed
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : Bolkars
+  job      : Electronics Engineering Senior 
+  bio      : "Designer with a penchant for the web and animation design, having also strong interest in philosophy as well as neuroscience, particularly the applied one, neural engineering ."
+  thumb    : /images/author.jpg
+  email    : sabribolkar@gmail.com
+  url      : http://blognova.com
+  github   : http://github.com/delamine
+  twitter  : 
+  facebook : 
+  linkedin : 
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: ""
+twitter_site: ""
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

@@ -1,9 +1,0 @@
-#post-foot-image { width: 100%; margin-right: 0px; }
-
-#imgg {height: 3px; width: 100%; margin-left: 0px;} 
-
-.post-body { font-family: "Crimson Text"; font-size: 15px;}
-
-#plus {	background-image: url("{{ site.baseurl }}/img/googleplus-icon.png")	}
-
-.post-header { padding-left: 0px; }
