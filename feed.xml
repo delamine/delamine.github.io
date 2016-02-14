@@ -5,13 +5,29 @@
     <description>Personal Blog of Bolkars</description>
     <link>http://blognova.com/</link>
     <atom:link href="http://blognova.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Feb 2016 16:52:59 +0200</pubDate>
-    <lastBuildDate>Sun, 14 Feb 2016 16:52:59 +0200</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2016 19:24:31 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 19:24:31 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>What is Brain Computer Interface?</title>
         <description>&lt;h3 id=&quot;direct-communication-with-the-brain-not-a-joke&quot;&gt;Direct communication with the brain, not a joke!&lt;/h3&gt;
+
+&lt;p&gt;When I first heard about brain-computer interface or BCI as called in the literature, I did not believe such technology exist. I was junior in college and it is believed at that time that fancy stuff always find a way to engineering students in particular if they are electronics majors. I was lured, of course. But it took me one month to really absorb what is really going on. It was not the technology that amazed me but the brain itself as it exposes its secrets in a strange way.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt; 
+&lt;img src=&quot;/assets/images/BCI/bci_me.jpg&quot; height=&quot;60%&quot; width=&quot;60%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s me up there. Although I seem quite peaceful, it took me one and half an hour to place the electrodes to their right place. For a proper EEG recording, every electrode has to go its designated place and it becomes some sort of torture after half an hour. But for now (as summer 2014) this was the state of the art.&lt;/p&gt;
+
+&lt;p&gt;The photo is from Hvidovre Hospital, Copenhagen DTU research center where, after I went mad about learning BCI, I got accepted as a research intern. I still feel deep gratitude for my supervisor Professor &lt;a href=&quot;http://www.dtu.dk/english/Service/Phonebook/Person?id=58827&amp;amp;tab=2&amp;amp;qt=dtupublicationquery&quot;&gt;Sadasivan Puthusserypady&lt;/a&gt;. He assisted me a lot during my internship while I am delving deep into biomedical signal Processing.&lt;/p&gt;
+
+&lt;p&gt;Then, what is biomedical signal processing really?&lt;/p&gt;
+
+&lt;p&gt;… &lt;strong&gt;Coming Soon&lt;/strong&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 14 Feb 2016 02:00:00 +0200</pubDate>
