@@ -5,15 +5,31 @@
     <description>Personal Blog of Bolkars</description>
     <link>http://blognova.com/</link>
     <atom:link href="http://blognova.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2016 19:10:06 +0200</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2016 19:10:06 +0200</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2016 16:52:59 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 16:52:59 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>What is Brain Computer Interface?</title>
+        <description>&lt;h3 id=&quot;direct-communication-with-the-brain-not-a-joke&quot;&gt;Direct communication with the brain, not a joke!&lt;/h3&gt;
+
+</description>
+        <pubDate>Sun, 14 Feb 2016 02:00:00 +0200</pubDate>
+        <link>http://blognova.com/2016/What-is-Brain-Computer-Interface/</link>
+        <guid isPermaLink="true">http://blognova.com/2016/What-is-Brain-Computer-Interface/</guid>
+        
+        
+        <category>Neural Engineering</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Blognova!</title>
         <description>&lt;p&gt;Hello World and welcome all!&lt;/p&gt;
 
-&lt;p&gt;The blog design is inspired from &lt;a href=&quot;https://github.com/nandomoreirame/simplest&quot;&gt;Simplest&lt;/a&gt; theme of Fernando Moreira. It is licenced under MIT licence. Use it freely.&lt;/p&gt;
+&lt;p&gt;I have always desired a corner in the net where I can show my online presence. I am quite bored with social networks, so I thought it is time to create the corner of my own. Although I am a just fine at front-end design. This one here stabbed my heart by the way It uses my favorite color red. Any obsessive guy (like me) shall love it, don’t worry. The blog design is inspired from &lt;a href=&quot;https://github.com/nandomoreirame/simplest&quot;&gt;Simplest&lt;/a&gt; theme of Fernando Moreira. It is MIT licensed. Use it freely :)&lt;/p&gt;
+
+&lt;p&gt;Note that the blog is hosted in Github servers and created by magic of &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It is totally free of charge.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 29 Jan 2016 21:19:43 +0200</pubDate>
