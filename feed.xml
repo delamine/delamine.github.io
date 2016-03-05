@@ -5,9 +5,43 @@
     <description>Personal Blog of Bolkars</description>
     <link>http://blognova.com/</link>
     <atom:link href="http://blognova.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2016 00:05:08 +0200</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 00:05:08 +0200</lastBuildDate>
+    <pubDate>Sat, 05 Mar 2016 09:16:19 +0200</pubDate>
+    <lastBuildDate>Sat, 05 Mar 2016 09:16:19 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Imaging the unseen, Bio-Spectral Imaging!</title>
+        <description>&lt;p&gt;Bio-Spectral Imaging is a quite novel method comparing to other imaging modalities, but it has special importance that should not be missed. It’s the bio-applied version of the so called spectral Imaging or what most people call “hyperspectral imaging” which is used for remote sensing applications especially for observing the Earth surface. The idea is to use more spectral elements while observing the bio-tissue. But how? To learn more about bio-spectral imaging lets first check hyperspectral imaging (e.g., Note that “hyper-“ is used just to indicate the amount of specral bands used).&lt;/p&gt;
+
+&lt;p&gt;My research repository about bio-spectral imaging is &lt;a href=&quot;https://github.com/delamine/Bio-Spectral-Imaging&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, it is a good one. Also, a fine introduction to bio-spectral imaging can also be made by Zeiss-Campus, just click the figure (3d data cube) below.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt; 
+&lt;a href=&quot;http://zeiss-campus.magnet.fsu.edu/articles/spectralimaging/introduction.html&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;/assets/images/Spectral/image_1.jpg&quot; height=&quot;80%&quot; width=&quot;80%&quot; /&gt; &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Spectral Imaging is a very special imaging method which extracts characteristic spectral information of elements covering the imagined area.Unlike other optical imaging methods (e.g., optical coherence tomography, optical diffuse tomography) which are monochromatic in their nature, spectral imaging utilizes different band gaps of electromagnetic spectrum and combines them to acquire all the available chemical fingerprints of ingredients as much as the current technology allows. Because of this reason, data in SI systems is stored as 3D cubes (x, y, λ) rather than mere 2d monochromatic images. As put by Qin in, It can also be described as a very special multidimensional spectroscopy device that applies spectroscopic measurement for each point in imagined area: ”If conventional imaging tries to answer the question where and conventional spectroscopy tries to answer the question what, then hyperspectral imaging tries to answer the question where is what” (1).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;more-about-spectral-imaging&quot;&gt;More about Spectral Imaging&lt;/h3&gt;
+
+&lt;p&gt;In the scientific literature, spectral imaging modality (i.e., imaging spectroscopy, once it was called) is divided into four main groups according to amount of spectral bands scanned. Names of research groups also indicate number of wavelengths utilized (i.e., Multispectral, hyperspectral and ultraspectral imaging). The term multispectral imaging is used to express the method that utilize only a few wavelengths to extract information. Hyperspectral imaging, Unlike multispectral imaging, includes hundreds of overlapping contagious bands, and ensures no spectral bands are skipped. And, ultraspectral imaging is much more advanced technique that includes thousands of contagious bands.&lt;/p&gt;
+
+&lt;p&gt;If conventional color cameras are to be compared with spectral imaging cameras, huge differences can be observed. Traditional cameras usually uses a single imaging chip which consists of color filters covering every pixel of a sensor. Each pixel of the sensor can detect only one of the three primary colors. Therefore, three pixels are required to detect the color of the area. Color cameras record three spectral bands simultaneously to obtain the color image and represent the image with three parameters: Red-Green-Blue, or RGB (figure 2). This cameras emulates the human vision and easy to interpret. However, similar to human vision, they have limitations. They misses spectral information outside of the three bands which is important for identifying a material. Therefore, color imaging systems cannot distinguish between different materials with the same color. This significantly limits diagnostic capabilities of color cameras and unveils the need for a more advanced system. This problem can be pointed as the main motivation behind spectral imaging architecture. Since, they obtain images at many wavelengths which are not recognizable by human vision and carries unique information about many materials which are not available with RGB cameras.&lt;/p&gt;
+
+&lt;p&gt;soon …..&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 05 Mar 2016 02:00:00 +0200</pubDate>
+        <link>http://blognova.com/2016/Bio-Spectral-Imaging/</link>
+        <guid isPermaLink="true">http://blognova.com/2016/Bio-Spectral-Imaging/</guid>
+        
+        
+        <category>Bio-Spectral Imaging</category>
+        
+      </item>
     
       <item>
         <title>What is Brain Computer Interface?</title>
@@ -27,7 +61,11 @@
 
 &lt;p&gt;Then, what is biomedical signal processing really?&lt;/p&gt;
 
-&lt;p&gt;… &lt;strong&gt;Coming Soon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is fairly different from other signal processing types, since this time the signal source is bio-originated and they are electromagnetic in their nature (Note that not all signal sources are electromagnetic such as genomic signal processing which deals with analysis and classification of gene sequences). The term EEG (Electroencephalography) is used for both recording and the signal itself. Do not feel confused, engineers are quite lazy people, unlike scientists they like assuming things. There are several signal types used in brain computer interfaces but the most used ones are EEG and MRI signals. During my internship, I mainly worked on EEG-based BCI systems, since they are faster and give you more than enough temporal resolution (although spatial resolution is quite low in EEG).&lt;/p&gt;
+
+&lt;p&gt;The main aim of brain computer interface is to devise an artificial communication channel (note that the channel is NOT duplex, we get the data from the brain, that’s it). The system decodes the signal and executes required tasks. Actually system is quite simple and highly depeds on the cues that the brain signals give away. Therefore, BCI research is very similar to “hide-and-seek” game where engineeres design smart experiments to extract useful features from EEG signals.&lt;/p&gt;
+
+&lt;p&gt;… Coming soon&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 14 Feb 2016 02:00:00 +0200</pubDate>
