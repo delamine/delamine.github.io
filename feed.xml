@@ -5,8 +5,8 @@
     <description>Personal Blog of Bolkars</description>
     <link>http://blognova.com/</link>
     <atom:link href="http://blognova.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Mar 2016 09:16:19 +0200</pubDate>
-    <lastBuildDate>Sat, 05 Mar 2016 09:16:19 +0200</lastBuildDate>
+    <pubDate>Sun, 13 Mar 2016 12:50:14 +0200</pubDate>
+    <lastBuildDate>Sun, 13 Mar 2016 12:50:14 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -61,11 +61,13 @@
 
 &lt;p&gt;Then, what is biomedical signal processing really?&lt;/p&gt;
 
-&lt;p&gt;It is fairly different from other signal processing types, since this time the signal source is bio-originated and they are electromagnetic in their nature (Note that not all signal sources are electromagnetic such as genomic signal processing which deals with analysis and classification of gene sequences). The term EEG (Electroencephalography) is used for both recording and the signal itself. Do not feel confused, engineers are quite lazy people, unlike scientists they like assuming things. There are several signal types used in brain computer interfaces but the most used ones are EEG and MRI signals. During my internship, I mainly worked on EEG-based BCI systems, since they are faster and give you more than enough temporal resolution (although spatial resolution is quite low in EEG).&lt;/p&gt;
+&lt;p&gt;It is fairly different from other signal processing types, since this time the signal source is bio-originated and they are electromagnetic in their nature (Note that not all signal sources are electromagnetic such as genomic signal processing which deals with analysis and classification of gene sequences). The term &lt;strong&gt;EEG&lt;/strong&gt; (Electroencephalography) is used for both recording and the signal itself. Do not feel confused, engineers are quite lazy people, unlike scientists they like assuming things. There are several signal types used in brain computer interfaces but the most used ones are EEG and MRI signals. During my internship, I mainly worked on EEG-based BCI systems, since they are faster and give you more than enough temporal resolution (although spatial resolution is quite low in EEG).&lt;/p&gt;
 
-&lt;p&gt;The main aim of brain computer interface is to devise an artificial communication channel (note that the channel is NOT duplex, we get the data from the brain, that’s it). The system decodes the signal and executes required tasks. Actually system is quite simple and highly depeds on the cues that the brain signals give away. Therefore, BCI research is very similar to “hide-and-seek” game where engineeres design smart experiments to extract useful features from EEG signals.&lt;/p&gt;
+&lt;p&gt;The main aim of brain computer interface is to devise an artificial communication channel (note that the channel is NOT duplex, we get the data from the brain, that’s it). The system decodes the signal and executes required tasks. Actually the system is quite simple and highly depends on the cues that the brain signals give away. Therefore, BCI research is very similar to “&lt;em&gt;hide-and-seek&lt;/em&gt;” game where engineers design smart experiments to extract useful features from EEG signals.&lt;/p&gt;
 
-&lt;p&gt;… Coming soon&lt;/p&gt;
+&lt;p&gt;Take my research for example, the experiment was to acquire responses of the brain to different (we will see what I mean by different) visual stimuli. Of course, the experiments are done on many subjects both healthy and diagnosed. In the project that I contributed, the aim was to rehabilitate children with &lt;strong&gt;ADHD&lt;/strong&gt; (Attention Deficit Hyperactivity Dİsorder). After acquisition of EEG signals by a smartly designed experiment, we applied many signal processing algorithms to identify the differences (or features as called in engineering literature) that may be used for possible BCI. Now, let me describe you the experiment environment and the different visual stimuli we apply in a simple manner.&lt;/p&gt;
+
+&lt;p&gt;SOON ….&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 14 Feb 2016 02:00:00 +0200</pubDate>
